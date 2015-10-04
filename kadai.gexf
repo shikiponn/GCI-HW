@@ -1,0 +1,1301 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="networkx_key" type="long" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="budget" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Brazilian" label="Brazilian">
+        <attvalues>
+          <attvalue for="0" value="Brazilian" />
+        </attvalues>
+      </node>
+      <node id="Mexican" label="Mexican">
+        <attvalues>
+          <attvalue for="0" value="Mexican" />
+        </attvalues>
+      </node>
+      <node id="Portuguese" label="Portuguese">
+        <attvalues>
+          <attvalue for="0" value="Portuguese" />
+        </attvalues>
+      </node>
+      <node id="Organic-Healthy" label="Organic-Healthy">
+        <attvalues>
+          <attvalue for="0" value="Organic-Healthy" />
+        </attvalues>
+      </node>
+      <node id="Eclectic" label="Eclectic">
+        <attvalues>
+          <attvalue for="0" value="Eclectic" />
+        </attvalues>
+      </node>
+      <node id="African" label="African">
+        <attvalues>
+          <attvalue for="0" value="African" />
+        </attvalues>
+      </node>
+      <node id="Australian" label="Australian">
+        <attvalues>
+          <attvalue for="0" value="Australian" />
+        </attvalues>
+      </node>
+      <node id="Dutch-Belgian" label="Dutch-Belgian">
+        <attvalues>
+          <attvalue for="0" value="Dutch-Belgian" />
+        </attvalues>
+      </node>
+      <node id="Pizzeria" label="Pizzeria">
+        <attvalues>
+          <attvalue for="0" value="Pizzeria" />
+        </attvalues>
+      </node>
+      <node id="Southeast_Asian" label="Southeast_Asian">
+        <attvalues>
+          <attvalue for="0" value="Southeast_Asian" />
+        </attvalues>
+      </node>
+      <node id="Dim_Sum" label="Dim_Sum">
+        <attvalues>
+          <attvalue for="0" value="Dim_Sum" />
+        </attvalues>
+      </node>
+      <node id="Game" label="Game">
+        <attvalues>
+          <attvalue for="0" value="Game" />
+        </attvalues>
+      </node>
+      <node id="medium" label="medium">
+        <attvalues>
+          <attvalue for="1" value="medium" />
+        </attvalues>
+      </node>
+      <node id="North_African" label="North_African">
+        <attvalues>
+          <attvalue for="0" value="North_African" />
+        </attvalues>
+      </node>
+      <node id="Steaks" label="Steaks">
+        <attvalues>
+          <attvalue for="0" value="Steaks" />
+        </attvalues>
+      </node>
+      <node id="Hungarian" label="Hungarian">
+        <attvalues>
+          <attvalue for="0" value="Hungarian" />
+        </attvalues>
+      </node>
+      <node id="Basque" label="Basque">
+        <attvalues>
+          <attvalue for="0" value="Basque" />
+        </attvalues>
+      </node>
+      <node id="Caribbean" label="Caribbean">
+        <attvalues>
+          <attvalue for="0" value="Caribbean" />
+        </attvalues>
+      </node>
+      <node id="Ethiopian" label="Ethiopian">
+        <attvalues>
+          <attvalue for="0" value="Ethiopian" />
+        </attvalues>
+      </node>
+      <node id="Seafood" label="Seafood">
+        <attvalues>
+          <attvalue for="0" value="Seafood" />
+        </attvalues>
+      </node>
+      <node id="Canadian" label="Canadian">
+        <attvalues>
+          <attvalue for="0" value="Canadian" />
+        </attvalues>
+      </node>
+      <node id="Russian-Ukrainian" label="Russian-Ukrainian">
+        <attvalues>
+          <attvalue for="0" value="Russian-Ukrainian" />
+        </attvalues>
+      </node>
+      <node id="California" label="California">
+        <attvalues>
+          <attvalue for="0" value="California" />
+        </attvalues>
+      </node>
+      <node id="Austrian" label="Austrian">
+        <attvalues>
+          <attvalue for="0" value="Austrian" />
+        </attvalues>
+      </node>
+      <node id="Tunisian" label="Tunisian">
+        <attvalues>
+          <attvalue for="0" value="Tunisian" />
+        </attvalues>
+      </node>
+      <node id="Bagels" label="Bagels">
+        <attvalues>
+          <attvalue for="0" value="Bagels" />
+        </attvalues>
+      </node>
+      <node id="Israeli" label="Israeli">
+        <attvalues>
+          <attvalue for="0" value="Israeli" />
+        </attvalues>
+      </node>
+      <node id="Malaysian" label="Malaysian">
+        <attvalues>
+          <attvalue for="0" value="Malaysian" />
+        </attvalues>
+      </node>
+      <node id="Barbecue" label="Barbecue">
+        <attvalues>
+          <attvalue for="0" value="Barbecue" />
+        </attvalues>
+      </node>
+      <node id="Tapas" label="Tapas">
+        <attvalues>
+          <attvalue for="0" value="Tapas" />
+        </attvalues>
+      </node>
+      <node id="Contemporary" label="Contemporary">
+        <attvalues>
+          <attvalue for="0" value="Contemporary" />
+        </attvalues>
+      </node>
+      <node id="Burmese" label="Burmese">
+        <attvalues>
+          <attvalue for="0" value="Burmese" />
+        </attvalues>
+      </node>
+      <node id="Cuban" label="Cuban">
+        <attvalues>
+          <attvalue for="0" value="Cuban" />
+        </attvalues>
+      </node>
+      <node id="Hot_Dogs" label="Hot_Dogs">
+        <attvalues>
+          <attvalue for="0" value="Hot_Dogs" />
+        </attvalues>
+      </node>
+      <node id="Cafe-Coffee_Shop" label="Cafe-Coffee_Shop">
+        <attvalues>
+          <attvalue for="0" value="Cafe-Coffee_Shop" />
+        </attvalues>
+      </node>
+      <node id="Mongolian" label="Mongolian">
+        <attvalues>
+          <attvalue for="0" value="Mongolian" />
+        </attvalues>
+      </node>
+      <node id="Chinese" label="Chinese">
+        <attvalues>
+          <attvalue for="0" value="Chinese" />
+        </attvalues>
+      </node>
+      <node id="Turkish" label="Turkish">
+        <attvalues>
+          <attvalue for="0" value="Turkish" />
+        </attvalues>
+      </node>
+      <node id="Bar" label="Bar">
+        <attvalues>
+          <attvalue for="0" value="Bar" />
+        </attvalues>
+      </node>
+      <node id="Hawaiian" label="Hawaiian">
+        <attvalues>
+          <attvalue for="0" value="Hawaiian" />
+        </attvalues>
+      </node>
+      <node id="Eastern_European" label="Eastern_European">
+        <attvalues>
+          <attvalue for="0" value="Eastern_European" />
+        </attvalues>
+      </node>
+      <node id="high" label="high">
+        <attvalues>
+          <attvalue for="1" value="high" />
+        </attvalues>
+      </node>
+      <node id="Burgers" label="Burgers">
+        <attvalues>
+          <attvalue for="0" value="Burgers" />
+        </attvalues>
+      </node>
+      <node id="Armenian" label="Armenian">
+        <attvalues>
+          <attvalue for="0" value="Armenian" />
+        </attvalues>
+      </node>
+      <node id="Peruvian" label="Peruvian">
+        <attvalues>
+          <attvalue for="0" value="Peruvian" />
+        </attvalues>
+      </node>
+      <node id="Polish" label="Polish">
+        <attvalues>
+          <attvalue for="0" value="Polish" />
+        </attvalues>
+      </node>
+      <node id="Tea_House" label="Tea_House">
+        <attvalues>
+          <attvalue for="0" value="Tea_House" />
+        </attvalues>
+      </node>
+      <node id="Romanian" label="Romanian">
+        <attvalues>
+          <attvalue for="0" value="Romanian" />
+        </attvalues>
+      </node>
+      <node id="German" label="German">
+        <attvalues>
+          <attvalue for="0" value="German" />
+        </attvalues>
+      </node>
+      <node id="Dessert-Ice_Cream" label="Dessert-Ice_Cream">
+        <attvalues>
+          <attvalue for="0" value="Dessert-Ice_Cream" />
+        </attvalues>
+      </node>
+      <node id="Kosher" label="Kosher">
+        <attvalues>
+          <attvalue for="0" value="Kosher" />
+        </attvalues>
+      </node>
+      <node id="Indonesian" label="Indonesian">
+        <attvalues>
+          <attvalue for="0" value="Indonesian" />
+        </attvalues>
+      </node>
+      <node id="Fine_Dining" label="Fine_Dining">
+        <attvalues>
+          <attvalue for="0" value="Fine_Dining" />
+        </attvalues>
+      </node>
+      <node id="Latin_American" label="Latin_American">
+        <attvalues>
+          <attvalue for="0" value="Latin_American" />
+        </attvalues>
+      </node>
+      <node id="Cafeteria" label="Cafeteria">
+        <attvalues>
+          <attvalue for="0" value="Cafeteria" />
+        </attvalues>
+      </node>
+      <node id="Persian" label="Persian">
+        <attvalues>
+          <attvalue for="0" value="Persian" />
+        </attvalues>
+      </node>
+      <node id="Tex-Mex" label="Tex-Mex">
+        <attvalues>
+          <attvalue for="0" value="Tex-Mex" />
+        </attvalues>
+      </node>
+      <node id="Fast_Food" label="Fast_Food">
+        <attvalues>
+          <attvalue for="0" value="Fast_Food" />
+        </attvalues>
+      </node>
+      <node id="American" label="American">
+        <attvalues>
+          <attvalue for="0" value="American" />
+        </attvalues>
+      </node>
+      <node id="Thai" label="Thai">
+        <attvalues>
+          <attvalue for="0" value="Thai" />
+        </attvalues>
+      </node>
+      <node id="Swiss" label="Swiss">
+        <attvalues>
+          <attvalue for="0" value="Swiss" />
+        </attvalues>
+      </node>
+      <node id="Breakfast-Brunch" label="Breakfast-Brunch">
+        <attvalues>
+          <attvalue for="0" value="Breakfast-Brunch" />
+        </attvalues>
+      </node>
+      <node id="Cajun-Creole" label="Cajun-Creole">
+        <attvalues>
+          <attvalue for="0" value="Cajun-Creole" />
+        </attvalues>
+      </node>
+      <node id="Vietnamese" label="Vietnamese">
+        <attvalues>
+          <attvalue for="0" value="Vietnamese" />
+        </attvalues>
+      </node>
+      <node id="Bar_Pub_Brewery" label="Bar_Pub_Brewery">
+        <attvalues>
+          <attvalue for="0" value="Bar_Pub_Brewery" />
+        </attvalues>
+      </node>
+      <node id="Vegetarian" label="Vegetarian">
+        <attvalues>
+          <attvalue for="0" value="Vegetarian" />
+        </attvalues>
+      </node>
+      <node id="Lebanese" label="Lebanese">
+        <attvalues>
+          <attvalue for="0" value="Lebanese" />
+        </attvalues>
+      </node>
+      <node id="Deli-Sandwiches" label="Deli-Sandwiches">
+        <attvalues>
+          <attvalue for="0" value="Deli-Sandwiches" />
+        </attvalues>
+      </node>
+      <node id="Jamaican" label="Jamaican">
+        <attvalues>
+          <attvalue for="0" value="Jamaican" />
+        </attvalues>
+      </node>
+      <node id="French" label="French">
+        <attvalues>
+          <attvalue for="0" value="French" />
+        </attvalues>
+      </node>
+      <node id="Chilean" label="Chilean">
+        <attvalues>
+          <attvalue for="0" value="Chilean" />
+        </attvalues>
+      </node>
+      <node id="International" label="International">
+        <attvalues>
+          <attvalue for="0" value="International" />
+        </attvalues>
+      </node>
+      <node id="Filipino" label="Filipino">
+        <attvalues>
+          <attvalue for="0" value="Filipino" />
+        </attvalues>
+      </node>
+      <node id="British" label="British">
+        <attvalues>
+          <attvalue for="0" value="British" />
+        </attvalues>
+      </node>
+      <node id="Polynesian" label="Polynesian">
+        <attvalues>
+          <attvalue for="0" value="Polynesian" />
+        </attvalues>
+      </node>
+      <node id="Diner" label="Diner">
+        <attvalues>
+          <attvalue for="0" value="Diner" />
+        </attvalues>
+      </node>
+      <node id="Afghan" label="Afghan">
+        <attvalues>
+          <attvalue for="0" value="Afghan" />
+        </attvalues>
+      </node>
+      <node id="Indigenous" label="Indigenous">
+        <attvalues>
+          <attvalue for="0" value="Indigenous" />
+        </attvalues>
+      </node>
+      <node id="Greek" label="Greek">
+        <attvalues>
+          <attvalue for="0" value="Greek" />
+        </attvalues>
+      </node>
+      <node id="Spanish" label="Spanish">
+        <attvalues>
+          <attvalue for="0" value="Spanish" />
+        </attvalues>
+      </node>
+      <node id="Asian" label="Asian">
+        <attvalues>
+          <attvalue for="0" value="Asian" />
+        </attvalues>
+      </node>
+      <node id="Continental-European" label="Continental-European">
+        <attvalues>
+          <attvalue for="0" value="Continental-European" />
+        </attvalues>
+      </node>
+      <node id="Cambodian" label="Cambodian">
+        <attvalues>
+          <attvalue for="0" value="Cambodian" />
+        </attvalues>
+      </node>
+      <node id="Fusion" label="Fusion">
+        <attvalues>
+          <attvalue for="0" value="Fusion" />
+        </attvalues>
+      </node>
+      <node id="Family" label="Family">
+        <attvalues>
+          <attvalue for="0" value="Family" />
+        </attvalues>
+      </node>
+      <node id="Doughnuts" label="Doughnuts">
+        <attvalues>
+          <attvalue for="0" value="Doughnuts" />
+        </attvalues>
+      </node>
+      <node id="Regional" label="Regional">
+        <attvalues>
+          <attvalue for="0" value="Regional" />
+        </attvalues>
+      </node>
+      <node id="Irish" label="Irish">
+        <attvalues>
+          <attvalue for="0" value="Irish" />
+        </attvalues>
+      </node>
+      <node id="Juice" label="Juice">
+        <attvalues>
+          <attvalue for="0" value="Juice" />
+        </attvalues>
+      </node>
+      <node id="Indian-Pakistani" label="Indian-Pakistani">
+        <attvalues>
+          <attvalue for="0" value="Indian-Pakistani" />
+        </attvalues>
+      </node>
+      <node id="Southwestern" label="Southwestern">
+        <attvalues>
+          <attvalue for="0" value="Southwestern" />
+        </attvalues>
+      </node>
+      <node id="Mediterranean" label="Mediterranean">
+        <attvalues>
+          <attvalue for="0" value="Mediterranean" />
+        </attvalues>
+      </node>
+      <node id="Japanese" label="Japanese">
+        <attvalues>
+          <attvalue for="0" value="Japanese" />
+        </attvalues>
+      </node>
+      <node id="low" label="low">
+        <attvalues>
+          <attvalue for="1" value="low" />
+        </attvalues>
+      </node>
+      <node id="Soup" label="Soup">
+        <attvalues>
+          <attvalue for="0" value="Soup" />
+        </attvalues>
+      </node>
+      <node id="Italian" label="Italian">
+        <attvalues>
+          <attvalue for="0" value="Italian" />
+        </attvalues>
+      </node>
+      <node id="Bakery" label="Bakery">
+        <attvalues>
+          <attvalue for="0" value="Bakery" />
+        </attvalues>
+      </node>
+      <node id="Pacific_Rim" label="Pacific_Rim">
+        <attvalues>
+          <attvalue for="0" value="Pacific_Rim" />
+        </attvalues>
+      </node>
+      <node id="Pacific_Northwest" label="Pacific_Northwest">
+        <attvalues>
+          <attvalue for="0" value="Pacific_Northwest" />
+        </attvalues>
+      </node>
+      <node id="Korean" label="Korean">
+        <attvalues>
+          <attvalue for="0" value="Korean" />
+        </attvalues>
+      </node>
+      <node id="Tibetan" label="Tibetan">
+        <attvalues>
+          <attvalue for="0" value="Tibetan" />
+        </attvalues>
+      </node>
+      <node id="Scandinavian" label="Scandinavian">
+        <attvalues>
+          <attvalue for="0" value="Scandinavian" />
+        </attvalues>
+      </node>
+      <node id="Sushi" label="Sushi">
+        <attvalues>
+          <attvalue for="0" value="Sushi" />
+        </attvalues>
+      </node>
+      <node id="Middle_Eastern" label="Middle_Eastern">
+        <attvalues>
+          <attvalue for="0" value="Middle_Eastern" />
+        </attvalues>
+      </node>
+      <node id="?" label="?">
+        <attvalues>
+          <attvalue for="1" value="?" />
+        </attvalues>
+      </node>
+      <node id="Moroccan" label="Moroccan">
+        <attvalues>
+          <attvalue for="0" value="Moroccan" />
+        </attvalues>
+      </node>
+      <node id="Southern" label="Southern">
+        <attvalues>
+          <attvalue for="0" value="Southern" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Brazilian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Mexican" target="medium" weight="58">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Mexican" target="low" weight="29">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Mexican" target="high" weight="5">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Mexican" target="?" weight="5">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Portuguese" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Portuguese" target="medium" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Organic-Healthy" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Eclectic" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="African" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Australian" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Dutch-Belgian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Pizzeria" target="low" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Pizzeria" target="medium" weight="6">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Southeast_Asian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="Dim_Sum" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Game" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Game" target="medium" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="medium" target="Cafeteria" weight="5">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="medium" target="Tex-Mex" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="medium" target="Juice" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="medium" target="Continental-European" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="medium" target="Fast_Food" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="medium" target="Fusion" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="medium" target="Indian-Pakistani" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="medium" target="American" weight="8">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="medium" target="Contemporary" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="medium" target="Regional" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="medium" target="Soup" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="medium" target="Hot_Dogs" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="medium" target="Cafe-Coffee_Shop" weight="5">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="medium" target="Chinese" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="medium" target="Turkish" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="medium" target="Bar" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="medium" target="Breakfast-Brunch" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="medium" target="Japanese" weight="6">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="medium" target="Eastern_European" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="medium" target="Burgers" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="medium" target="Lebanese" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="medium" target="Italian" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="medium" target="Polish" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="medium" target="Bakery" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="medium" target="Barbecue" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="medium" target="Sushi" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="medium" target="Seafood" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="medium" target="Deli-Sandwiches" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="medium" target="Dessert-Ice_Cream" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="medium" target="Spanish" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="medium" target="Family" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="medium" target="Bagels" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="medium" target="Moroccan" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="medium" target="Polynesian" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="medium" target="Diner" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="medium" target="Asian" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="medium" target="Latin_American" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="North_African" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="Steaks" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="Hungarian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="Basque" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="Caribbean" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="Ethiopian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="Seafood" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="Canadian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="Russian-Ukrainian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="California" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="Austrian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="Tunisian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="Bagels" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="Israeli" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="Malaysian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="Barbecue" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="Tapas" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="Contemporary" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="Burmese" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="Cuban" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="Hot_Dogs" target="low" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="Cafe-Coffee_Shop" target="low" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="Mongolian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="Mongolian" target="high" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="Chinese" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="Turkish" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="Bar" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="Hawaiian" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="Eastern_European" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="high" target="Moroccan" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="high" target="Middle_Eastern" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="Burgers" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="Armenian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="Peruvian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="Polish" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="Tea_House" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="Romanian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="German" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="Dessert-Ice_Cream" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="Kosher" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="Indonesian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="Fine_Dining" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="Latin_American" target="low" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="Cafeteria" target="low" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="Persian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="Tex-Mex" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="Fast_Food" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="American" target="low" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="Thai" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="Swiss" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="Breakfast-Brunch" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="Cajun-Creole" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="Vietnamese" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="Bar_Pub_Brewery" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="Vegetarian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="Lebanese" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="Deli-Sandwiches" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="Jamaican" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="French" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="Chilean" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="International" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="Filipino" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="British" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="Polynesian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="Diner" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="Afghan" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="Afghan" target="?" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="Indigenous" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="Greek" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="Spanish" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="Asian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="Continental-European" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="Cambodian" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="Fusion" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="Family" target="low" weight="4">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="Doughnuts" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="Regional" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="Irish" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="Juice" target="low" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="Indian-Pakistani" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="Southwestern" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="Mediterranean" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="Japanese" target="low" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="low" target="Soup" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="low" target="Italian" weight="3">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="low" target="Bakery" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="low" target="Pacific_Rim" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="low" target="Pacific_Northwest" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="low" target="Korean" weight="2">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="low" target="Tibetan" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="low" target="Scandinavian" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="low" target="Sushi" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="low" target="Middle_Eastern" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="low" target="Moroccan" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="low" target="Southern" weight="1">
+        <attvalues>
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
