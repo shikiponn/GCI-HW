@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
 encoding/api.py=utf-8
+encoding/dbtest.py=utf-8
+encoding/mecab.py=utf-8
+encoding/rss.py=utf-8

@@ -3,7 +3,7 @@ import csv
 import mysql.connector
 import os
 from builtins import range
-    
+import config
 
 """
 #データ読み込み
@@ -65,9 +65,9 @@ for j in range(row_num):
 #データベース設定
 """
 connect = mysql.connector.connect(
-    database="rcdata",
-    user="root",
-    password="yukikaze",
+    database=config.db,
+    user=config.user,
+    password=config.pw,
 )
        
 dbc = connect.cursor(buffered=True)    

@@ -1,15 +1,16 @@
 import networkx as nx
 import mysql.connector
 import matplotlib.pyplot as plt
+import config
 
 
 G = nx.MultiGraph()
 
 # #データベース設定
 connect = mysql.connector.connect(
-    database="rcdata",
-    user="root",
-    password="yukikaze",
+    database=config.db,
+    user=config.user,
+    password=config.pw,
 )
 dbc = connect.cursor(buffered=True)   
  
